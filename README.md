@@ -16,13 +16,9 @@ compile client: gcc -pthread -o client client.c
 
 how to run:
 1. on real machine, run python (tic_tac_toe.py)
-2. 
-3. on virtual machine, cd to the directory of server, run server
-4. 
-5. run 1st client
-6. 
-7. run 2nd client
-8. 
-9. play the game !!
+2. on virtual machine, cd to the directory of server, run server
+3.  run 1st client
+4. run 2nd client
+5. play the game !!
 
 see detail how to run at https://www.youtube.com/watch?v=J5eWpaGk2Sc
