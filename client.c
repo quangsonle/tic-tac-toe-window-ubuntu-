@@ -87,7 +87,7 @@ int main(){
   serverAddr.sin_port = htons(5000);
 
  //Set IP address to localhost
-  serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+  serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1"); // loopback ip, no need to change
   memset(serverAddr.sin_zero, '\0', sizeof serverAddr.sin_zero);
 
     //Connect the socket to the server using the address
