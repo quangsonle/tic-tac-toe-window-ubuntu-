@@ -1,6 +1,6 @@
 # tic-tac-toe-window-ubuntu:
 using the bridged network of oracle virtual machine
-python (judge) runs on real machine (windows), server and clients run on ubuntu 20.04 (Oracle virtual machine) and communicate to each other through TCP/IP.
+python (judge) runs on a real machine (windows), server and clients run on a ubuntu 20.04 (Oracle virtual machine) and communicate to each other through TCP/IP.
 
 python (on real machine) communicates to server (on virtual machine) thorugh zmq
 
@@ -8,7 +8,7 @@ if you don't use my configuration (virtual machine) but 2 separate PCs, it also 
 
 also ensure the ports (for both server-clients and judge-server) are not locked by any anti virus
 
-make sure you install gcc (I use version 9.3) on virtual machine and python (3.7) on real machine
+make sure you installed gcc (I use version 9.3) on the unbuntu-based virtual machine and python (3.7) on the real machine
 
 install package of zmq on virtual machine: sudo apt-get install libzmq3-de
 
