@@ -112,7 +112,7 @@ int main(){
   serverAddr.sin_port = htons(5000);
 
   //Set IP address to localhost 
-  serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+  serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1"); // loopback ip , no need to change
 
 
   //Set all bits of the padding field to 0 
@@ -131,7 +131,7 @@ int main(){
     /////////////////////zmq config
    context = zmq_ctx_new ();
     requester = zmq_socket (context, ZMQ_REQ);
-    zmq_connect (requester, "tcp://192.168.0.175:5555");
+    zmq_connect (requester, "tcp://192.168.0.175:5555"); // this is Ip of real machine, you must change it to your IP, depends on the network
     ////////////////////
     pthread_create(&timer_thread, NULL, timer_check, NULL);
     while(1)
