@@ -11,7 +11,7 @@ turn = 'X'
     we will change the value according to player's choice of move. '''
 context = zmq.Context()
 socket = context.socket(zmq.REP)
-socket.bind("tcp://192.168.0.175:5555")
+socket.bind("tcp://192.168.0.175:5555")# window-based real machine's ip
 
 
 board_keys = []
