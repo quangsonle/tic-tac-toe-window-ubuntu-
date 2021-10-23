@@ -4,6 +4,10 @@ python (judge) runs on real machine (windows), server and clients run on ubuntu 
 
 python (on real machine) communicates to server (on virtual machine) thorugh zmq
 
+if you don't use my configuration (virtual machine) but 2 separate PCs, it also should work but make sure they are connected without any obstacle (i.e can ping IP or send thourgh socket)
+
+also ensure the ports (for both server-clients and judge-server) are not locked by any anti virus
+
 make sure you install gcc (I use version 9.3) on virtual machine and python (3.7) on real machine
 
 install package of zmq on virtual machine: sudo apt-get install libzmq3-de
