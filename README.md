@@ -27,5 +27,5 @@ how to run:
 
 see detail how to run at https://www.youtube.com/watch?v=J5eWpaGk2Sc
 
-Thw judge in python is adopted and modified from https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
+The judge in python is adopted and modified from https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
 
